@@ -9,11 +9,34 @@
 
     <ImageView
         android:id="@+id/imgT"
-        android:scaleType="centerCrop"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/terra"
-        />
+        android:scaleType="centerCrop"
+        android:src="@drawable/terra" />
+
+    <ImageView
+        android:id="@+id/imgM"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imgJ"
+        android:scaleType="centerCrop"
+        android:src="@drawable/marte" />
+
+    <ImageView
+        android:id="@+id/imgP"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imgM"
+        android:scaleType="centerCrop"
+        android:src="@drawable/plutao" />
+
+    <ImageView
+        android:id="@+id/imgJ"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imgT"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jupiter" />
 
 
 </RelativeLayout>
